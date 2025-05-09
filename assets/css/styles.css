@@ -1,0 +1,64 @@
+/* Imágenes Responsivas */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #A5D6A7, #2E7D32);
+    color: #F5F5DC; /* Beige */
+}
+
+/* Uniform Titles */
+h1, h2, h3 {
+    color: #2E7D32; /* Forest Green */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+/* Navigation Menu */
+nav {
+    background: linear-gradient(90deg, #4DD0E1, #2E7D32);
+    padding: 10px;
+}
+
+nav a {
+    color: #F5F5DC; /* Beige */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #A5D6A7; /* Light Green */
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(90deg, #2E7D32, #A5D6A7);
+    color: #F5F5DC;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #A5D6A7, #2E7D32);
+}
+
+/* Footer */
+footer {
+    background: #757575; /* Stone Gray */
+    color: #F5F5DC;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
